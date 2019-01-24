@@ -1,0 +1,6 @@
+{
+  "watch": ["src/server", "nuxt.config.js"],
+  "ext": "js ts",
+  "ignore": ["src/server/**/*.spec.ts"],
+  "exec": "ts-node -r tsconfig-paths/register src/server/main.ts"
+}
